@@ -36,6 +36,7 @@ public class Program {
 			System.out.print("Check-out date (dd/MM/yyyy): ");
 			checkout = sdf.parse(sc.next());
 			
+			
 			Date now = new Date();
 			
 			if (checkIn.before(now) || checkout.before(now)) {
